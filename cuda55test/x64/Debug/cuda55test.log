@@ -1,0 +1,23 @@
+﻿Построение начато 31.03.2015 14:08:12.
+     1>Проект "C:\Users\Администратор\Desktop\cuda55test\cuda55test\cuda55test.vcxproj" в узле 2 (целевые объекты Build).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c C:\Users\Администратор\Desktop\cuda55test\cuda55test\kernel.cu 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Администратор\AppData\Local\Temp\tmp995ac89c38fa4ebb9c0bc451df78c996.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_20,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Администратор\Desktop\cuda55test\cuda55test\kernel.cu"
+         
+         C:\Users\Администратор\Desktop\cuda55test\cuda55test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_20,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Администратор\Desktop\cuda55test\cuda55test\kernel.cu" 
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(18): warning : variable "i" was declared but never referenced
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(158): error : argument of type "int *" is incompatible with parameter of type "const unsigned long long **"
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(158): error : argument of type "int *" is incompatible with parameter of type "unsigned long long **"
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(158): error : argument of type "int *" is incompatible with parameter of type "unsigned long long **"
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(158): error : too few arguments in function call
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(118): warning : transfer of control bypasses initialization of:
+     1>C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/cuda55test/cuda55test/kernel.cu(123): warning : variable "SizeInThreads" was declared but never referenced
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 5.5.targets(592,9): error MSB3721: выход из команды ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_20,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Администратор\Desktop\cuda55test\cuda55test\kernel.cu"" с кодом "2".
+     1>Построение проекта "C:\Users\Администратор\Desktop\cuda55test\cuda55test\cuda55test.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:03.11
